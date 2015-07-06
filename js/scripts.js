@@ -7,6 +7,7 @@ var revert = function() {
     $('#aw-medium').css("color", "#353A47");
     $('#aw-spotify').css("color", "#353A47");
     $('#aw-labs').css("color", "#353A47");
+    $('#naw-ello').css("color", "#353A47");
 }
 
 $('#aw-twitter').hover(
@@ -59,6 +60,15 @@ $('#aw-labs').hover(
         $('#name').text("labs");
         $('#name').css("color", "#2FCC63");
         $('#aw-labs').css("color", "#2FCC63");
+    },
+    revert
+);
+
+$('#naw-ello').hover(
+    function() {
+        $('#name').text("ello");
+        $('#name').css("color", "#171515");
+        $('#naw-ello').css("color", "#171515");
     },
     revert
 );
