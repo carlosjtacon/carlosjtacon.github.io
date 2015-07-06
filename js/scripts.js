@@ -8,6 +8,9 @@ var revert = function() {
     $('#aw-spotify').css("color", "#353A47");
     $('#aw-labs').css("color", "#353A47");
     $('#naw-ello').css("color", "#353A47");
+    $('#aw-instagram').css("color", "#353A47");
+    $('#aw-blog').css("color", "#353A47");
+    $('#aw-youtube').css("color", "#353A47");
 }
 
 $('#aw-twitter').hover(
@@ -69,6 +72,33 @@ $('#naw-ello').hover(
         $('#name').text("ello");
         $('#name').css("color", "#171515");
         $('#naw-ello').css("color", "#171515");
+    },
+    revert
+);
+
+$('#aw-instagram').hover(
+    function() {
+        $('#name').text("instagram");
+        $('#name').css("color", "#3f729b");
+        $('#aw-instagram').css("color", "#3f729b");
+    },
+    revert
+);
+
+$('#aw-blog').hover(
+    function() {
+        $('#name').text("blog");
+        $('#name').css("color", "#f57d00");
+        $('#aw-blog').css("color", "#f57d00");
+    },
+    revert
+);
+
+$('#aw-youtube').hover(
+    function() {
+        $('#name').text("youtube");
+        $('#name').css("color", "#cd201f");
+        $('#aw-youtube').css("color", "#cd201f");
     },
     revert
 );
