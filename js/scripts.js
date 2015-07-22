@@ -1,16 +1,7 @@
 var revert = function() {
 	$('#name').text("Carlos Tacón");
     $('#name').css("color", "#353A47");
-    $('#aw-twitter').css("color", "#353A47");
-    $('#aw-telegram').css("color", "#353A47");
-    $('#aw-github').css("color", "#353A47");
-    $('#aw-medium').css("color", "#353A47");
-    $('#aw-spotify').css("color", "#353A47");
-    $('#aw-labs').css("color", "#353A47");
-    $('#naw-ello').css("color", "#353A47");
-    $('#aw-instagram').css("color", "#353A47");
-    $('#aw-blog').css("color", "#353A47");
-    $('#aw-youtube').css("color", "#353A47");
+    $('.social-icon').css("color", "#353A47");
 }
 
 $('#aw-twitter').hover(
@@ -99,6 +90,33 @@ $('#aw-youtube').hover(
         $('#name').text("youtube");
         $('#name').css("color", "#cd201f");
         $('#aw-youtube').css("color", "#cd201f");
+    },
+    revert
+);
+
+$('#aw-about').hover(
+    function() {
+        $('#name').text("about me");
+        $('#name').css("color", "#fe5f55");
+        $('#aw-about').css("color", "#fe5f55");
+    },
+    revert
+);
+
+$('#aw-podcast').hover(
+    function() {
+        $('#name').text("podcast");
+        $('#name').css("color", "#ff7f00");
+        $('#aw-podcast').css("color", "#ff7f00");
+    },
+    revert
+);
+
+$('#aw-mail').hover(
+    function() {
+        $('#name').text("mail");
+        $('#name').css("color", "#55ACEE");
+        $('#aw-mail').css("color", "#55ACEE");
     },
     revert
 );
