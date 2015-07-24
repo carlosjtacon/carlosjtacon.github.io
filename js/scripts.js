@@ -1,3 +1,8 @@
+;(function ($) {
+    // Initialize smoothState on a container that has an id
+    $('#main').smoothState({ prefetch: true });
+})(jQuery);
+
 var revert = function() {
 	$('#name').text("Carlos Tacón");
     $('#name').css("color", "#353A47");
