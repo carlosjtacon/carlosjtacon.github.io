@@ -9,11 +9,11 @@ a {
 }
 
 .round-avatar {
-    margin-top: 120px;
+    margin-top: 70px;
     margin-bottom: 20px;
     position: absolute;
 
-    /*border: 2px solid #353A47;*/
+    /*border: 2px solid #FFFFFF;*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
