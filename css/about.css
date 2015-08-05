@@ -9,9 +9,7 @@ a {
 }
 
 .avatar-div {
-	/*background:#e7e7e7;*/
 	margin-top:70px;
-	height: 300px;
 }
 
 .round-avatar {
@@ -37,10 +35,8 @@ a {
 }
 
 .about-div {
-	/*background:#e7e7e7;*/
 	margin-top:70px;
 	margin-bottom: 20px;
-	min-height:500px;
 	text-align: justify;
 	padding: 0px 10px 0px 10px;
 }

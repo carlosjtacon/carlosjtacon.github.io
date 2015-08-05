@@ -56,7 +56,7 @@ $('#aw-spotify').hover(
 
 $('#aw-labs').hover(
     function() {
-        $('#name').text("labs");
+        $('#name').text("labs (not yet)");
         $('#name').css("color", "#2FCC63");
         $('#aw-labs').css("color", "#2FCC63");
     },
@@ -75,8 +75,8 @@ $('#naw-ello').hover(
 $('#aw-instagram').hover(
     function() {
         $('#name').text("instagram");
-        $('#name').css("color", "#3f729b");
-        $('#aw-instagram').css("color", "#3f729b");
+        $('#name').css("color", "#1B5885");
+        $('#aw-instagram').css("color", "#1B5885");
     },
     revert
 );
@@ -84,8 +84,8 @@ $('#aw-instagram').hover(
 $('#aw-blog').hover(
     function() {
         $('#name').text("blog");
-        $('#name').css("color", "#f57d00");
-        $('#aw-blog').css("color", "#f57d00");
+        $('#name').css("color", "#FF9900");
+        $('#aw-blog').css("color", "#FF9900");
     },
     revert
 );
@@ -102,8 +102,8 @@ $('#aw-youtube').hover(
 $('#aw-about').hover(
     function() {
         $('#name').text("about me");
-        $('#name').css("color", "#fe5f55");
-        $('#aw-about').css("color", "#fe5f55");
+        $('#name').css("color", "#E53935");
+        $('#aw-about').css("color", "#E53935");
     },
     revert
 );
