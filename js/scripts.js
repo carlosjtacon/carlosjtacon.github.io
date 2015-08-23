@@ -56,7 +56,7 @@ $('#aw-spotify').hover(
 
 $('#aw-labs').hover(
     function() {
-        $('#name').text("labs (not yet)");
+        $('#name').text("labs");
         $('#name').css("color", "#2FCC63");
         $('#aw-labs').css("color", "#2FCC63");
     },
