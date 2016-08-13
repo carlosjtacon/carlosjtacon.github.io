@@ -125,3 +125,12 @@ $('#aw-mail').hover(
     },
     revert
 );
+
+$('#aw-photo').hover(
+    function() {
+        $('#name').text("photo portfolio");
+        $('#name').css("color", "#9013FE");
+        $('#aw-photo').css("color", "#9013FE");
+    },
+    revert
+);
