@@ -38,9 +38,9 @@ $('#aw-github').hover(
 
 $('#aw-medium').hover(
     function() {
-        $('#name').text("medium");
-        $('#name').css("color", "#171515");
-        $('#aw-medium').css("color", "#171515");
+        $('#name').text("morfilms");
+        $('#name').css("color", "#f8e71c");
+        $('#aw-medium').css("color", "#f8e71c");
     },
     revert
 );
