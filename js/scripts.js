@@ -4,7 +4,7 @@
 })(jQuery);
 
 var revert = function() {
-	$('#name').text("Carlos Tacón");
+	$('#name').text("carlos tacón");
     $('#name').css("color", "#353A47");
     $('.social-icon').css("color", "#353A47");
 }
@@ -39,8 +39,8 @@ $('#aw-github').hover(
 $('#aw-medium').hover(
     function() {
         $('#name').text("morfilms");
-        $('#name').css("color", "#f8e71c");
-        $('#aw-medium').css("color", "#f8e71c");
+        $('#name').css("color", "#e5d419");
+        $('#aw-medium').css("color", "#e5d419");
     },
     revert
 );
@@ -75,8 +75,8 @@ $('#naw-ello').hover(
 $('#aw-instagram').hover(
     function() {
         $('#name').text("instagram");
-        $('#name').css("color", "#1B5885");
-        $('#aw-instagram').css("color", "#1B5885");
+        $('#name').css("color", "#fd5949");
+        $('#aw-instagram').css("color", "#fd5949");
     },
     revert
 );
@@ -119,9 +119,9 @@ $('#aw-podcast').hover(
 
 $('#aw-mail').hover(
     function() {
-        $('#name').text("mail");
-        $('#name').css("color", "#55ACEE");
-        $('#aw-mail').css("color", "#55ACEE");
+        $('#name').text("contact me");
+        $('#name').css("color", "#0b71bf");
+        $('#aw-mail').css("color", "#0b71bf");
     },
     revert
 );
@@ -129,8 +129,8 @@ $('#aw-mail').hover(
 $('#aw-photo').hover(
     function() {
         $('#name').text("photo portfolio");
-        $('#name').css("color", "#9013FE");
-        $('#aw-photo').css("color", "#9013FE");
+        $('#name').css("color", "#2fcc63");
+        $('#aw-photo').css("color", "#2fcc63");
     },
     revert
 );
