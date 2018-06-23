@@ -63,6 +63,15 @@ $('#aw-labs').hover(
     revert
 );
 
+$('#aw-bomb').hover(
+    function() {
+        $('#name').text("computer graphics");
+        $('#name').css("color", "#FF0000");
+        $('#aw-bomb').css("color", "#FF0000");
+    },
+    revert
+);
+
 $('#naw-ello').hover(
     function() {
         $('#name').text("ello");
