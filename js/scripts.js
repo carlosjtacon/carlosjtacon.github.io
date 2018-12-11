@@ -65,7 +65,7 @@ $('#aw-labs').hover(
 
 $('#aw-bomb').hover(
     function() {
-        $('#name').text("computer graphics");
+        $('#name').text("vfx blog");
         $('#name').css("color", "#FF0000");
         $('#aw-bomb').css("color", "#FF0000");
     },
