@@ -66,8 +66,8 @@ $('#aw-labs').hover(
 $('#aw-bomb').hover(
     function() {
         $('#name').text("vfx blog");
-        $('#name').css("color", "#FF0000");
-        $('#aw-bomb').css("color", "#FF0000");
+        $('#name').css("color", "#32CD32");
+        $('#aw-bomb').css("color", "#32CD32");
     },
     revert
 );
@@ -138,8 +138,8 @@ $('#aw-mail').hover(
 $('#aw-photo').hover(
     function() {
         $('#name').text("photo portfolio");
-        $('#name').css("color", "#2fcc63");
-        $('#aw-photo').css("color", "#2fcc63");
+        $('#name').css("color", "#FF0000");
+        $('#aw-photo').css("color", "#FF0000");
     },
     revert
 );
