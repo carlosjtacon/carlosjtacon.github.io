@@ -143,3 +143,13 @@ $('#aw-photo').hover(
     },
     revert
 );
+
+
+$('#aw-linkedin').hover(
+    function() {
+        $('#name').text("linkedin");
+        $('#name').css("color", "#0077B5");
+        $('#aw-linkedin').css("color", "#0077B5");
+    },
+    revert
+);
