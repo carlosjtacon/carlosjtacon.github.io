@@ -92,7 +92,7 @@ $('#aw-instagram').hover(
 
 $('#aw-blog').hover(
     function() {
-        $('#name').text("blog");
+        $('#name').text("medium blog");
         $('#name').css("color", "#FF9900");
         $('#aw-blog').css("color", "#FF9900");
     },
