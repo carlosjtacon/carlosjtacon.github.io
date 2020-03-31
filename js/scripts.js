@@ -92,7 +92,7 @@ $('#aw-instagram').hover(
 
 $('#aw-blog').hover(
     function() {
-        $('#name').text("medium blog");
+        $('#name').text("personal blog");
         $('#name').css("color", "#FF9900");
         $('#aw-blog').css("color", "#FF9900");
     },
@@ -137,7 +137,7 @@ $('#aw-mail').hover(
 
 $('#aw-photo').hover(
     function() {
-        $('#name').text("photo portfolio");
+        $('#name').text("photography");
         $('#name').css("color", "#FF0000");
         $('#aw-photo').css("color", "#FF0000");
     },
@@ -150,6 +150,15 @@ $('#aw-linkedin').hover(
         $('#name').text("linkedin");
         $('#name').css("color", "#0077B5");
         $('#aw-linkedin').css("color", "#0077B5");
+    },
+    revert
+);
+
+$('#aw-imdb').hover(
+    function() {
+        $('#name').text("imdb");
+        $('#name').css("color", "#F5DE50");
+        $('#aw-imdb').css("color", "#F5DE50");
     },
     revert
 );
