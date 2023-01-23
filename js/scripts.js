@@ -9,20 +9,11 @@ var revert = function() {
     $('.social-icon').css("color", "#353A47");
 }
 
-$('#aw-twitter').hover(
+$('#aw-mastodon').hover(
     function() {
-        $('#name').text("twitter");
-        $('#name').css("color", "#55ACEE");
-        $('#aw-twitter').css("color", "#55ACEE");
-    },
-    revert
-);
-
-$('#aw-telegram').hover(
-    function() {
-        $('#name').text("telegram");
-        $('#name').css("color", "#55ACEE");
-        $('#aw-telegram').css("color", "#55ACEE");
+        $('#name').text("mastodon");
+        $('#name').css("color", "#6364ff");
+        $('#aw-mastodon').css("color", "#6364ff");
     },
     revert
 );
@@ -32,24 +23,6 @@ $('#aw-github').hover(
         $('#name').text("github");
         $('#name').css("color", "#171515");
         $('#aw-github').css("color", "#171515");
-    },
-    revert
-);
-
-$('#aw-medium').hover(
-    function() {
-        $('#name').text("morfilms");
-        $('#name').css("color", "#e5d419");
-        $('#aw-medium').css("color", "#e5d419");
-    },
-    revert
-);
-
-$('#aw-spotify').hover(
-    function() {
-        $('#name').text("spotify");
-        $('#name').css("color", "#2FCC63");
-        $('#aw-spotify').css("color", "#2FCC63");
     },
     revert
 );
@@ -72,20 +45,11 @@ $('#aw-bomb').hover(
     revert
 );
 
-$('#naw-ello').hover(
+$('#aw-panoramas').hover(
     function() {
-        $('#name').text("ello");
-        $('#name').css("color", "#171515");
-        $('#naw-ello').css("color", "#171515");
-    },
-    revert
-);
-
-$('#aw-instagram').hover(
-    function() {
-        $('#name').text("instagram");
-        $('#name').css("color", "#fd5949");
-        $('#aw-instagram').css("color", "#fd5949");
+        $('#name').text("panoramas");
+        $('#name').css("color", "#EA662A");
+        $('#aw-panoramas').css("color", "#EA662A");
     },
     revert
 );
@@ -99,29 +63,11 @@ $('#aw-blog').hover(
     revert
 );
 
-$('#aw-youtube').hover(
-    function() {
-        $('#name').text("youtube");
-        $('#name').css("color", "#cd201f");
-        $('#aw-youtube').css("color", "#cd201f");
-    },
-    revert
-);
-
 $('#aw-about').hover(
     function() {
         $('#name').text("about me");
         $('#name').css("color", "#E53935");
         $('#aw-about').css("color", "#E53935");
-    },
-    revert
-);
-
-$('#aw-podcast').hover(
-    function() {
-        $('#name').text("podcast");
-        $('#name').css("color", "#ff7f00");
-        $('#aw-podcast').css("color", "#ff7f00");
     },
     revert
 );
@@ -144,7 +90,6 @@ $('#aw-photo').hover(
     revert
 );
 
-
 $('#aw-linkedin').hover(
     function() {
         $('#name').text("linkedin");
@@ -157,8 +102,8 @@ $('#aw-linkedin').hover(
 $('#aw-imdb').hover(
     function() {
         $('#name').text("imdb");
-        $('#name').css("color", "#F5DE50");
-        $('#aw-imdb').css("color", "#F5DE50");
+        $('#name').css("color", "#fdcc0d");
+        $('#aw-imdb').css("color", "#fdcc0d");
     },
     revert
 );
