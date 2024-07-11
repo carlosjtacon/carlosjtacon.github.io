@@ -107,3 +107,12 @@ $('#aw-imdb').hover(
     },
     revert
 );
+
+$('#aw-cv').hover(
+    function() {
+        $('#name').text("curriculum vitae");
+        $('#name').css("color", "#469ddb");
+        $('#aw-cv').css("color", "#469ddb");
+    },
+    revert
+);
