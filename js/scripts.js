@@ -21,8 +21,8 @@ $('#aw-mastodon').hover(
 $('#aw-github').hover(
     function() {
         $('#name').text("github");
-        $('#name').css("color", "#171515");
-        $('#aw-github').css("color", "#171515");
+        $('#name').css("color", "grey");
+        $('#aw-github').css("color", "grey");
     },
     revert
 );
@@ -66,26 +66,35 @@ $('#aw-blog').hover(
 $('#aw-about').hover(
     function() {
         $('#name').text("about me");
-        $('#name').css("color", "#E53935");
-        $('#aw-about').css("color", "#E53935");
+        $('#name').css("color", "#FF9900");
+        $('#aw-about').css("color", "#FF9900");
     },
     revert
 );
 
 $('#aw-mail').hover(
     function() {
-        $('#name').text("contact me");
-        $('#name').css("color", "#0b71bf");
-        $('#aw-mail').css("color", "#0b71bf");
+        $('#name').text("e-mail me");
+        $('#name').css("color", "#07cdbc");
+        $('#aw-mail').css("color", "#07cdbc");
     },
     revert
 );
 
 $('#aw-photo').hover(
     function() {
-        $('#name').text("photography");
+        $('#name').text("filmstrip");
         $('#name').css("color", "#FF0000");
         $('#aw-photo').css("color", "#FF0000");
+    },
+    revert
+);
+
+$('#aw-aotearoa').hover(
+    function() {
+        $('#name').text("new zealand");
+        $('#name').css("color", "#2BD51B");
+        $('#aw-aotearoa').css("color", "#2BD51B");
     },
     revert
 );
