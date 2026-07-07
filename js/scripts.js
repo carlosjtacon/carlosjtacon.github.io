@@ -90,6 +90,15 @@ $('#aw-photo').hover(
     revert
 );
 
+$('#aw-craftwork').hover(
+    function() {
+        $('#name').text("craftwork");
+        $('#name').css("color", "#ad7343");
+        $('#aw-craftwork').css("color", "#ad7343");
+    },
+    revert
+);
+
 $('#aw-aotearoa').hover(
     function() {
         $('#name').text("new zealand");

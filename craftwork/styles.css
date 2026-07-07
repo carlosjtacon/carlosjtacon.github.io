@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F4F4F4;
+	padding: 2.5em;
+	margin: auto;
+	--numcolumns: 1;
+	/* mobile first */
+}
+
+p {
+  text-align: justify;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(var(--numcolumns), 1fr);
+}
+
+.image {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.vertical {
+  aspect-ratio: 3/4;
+}
+
+.horizontal {
+  aspect-ratio: 3/2;
+}
+
+@media all and (min-width: 800px) {
+	body {
+		/* padding: 4em; */
+    max-width: 800px;
+	}
+	.column2 {
+		--numcolumns: 2 !important;
+	}
+}
